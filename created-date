@@ -1,0 +1,19 @@
+<!-- created-c-date -->
+<input type="hidden" name="created-c-date" value="<?php echo CreatedCDate(); ?>">
+<!-- ./created-c-date -->
+
+<!-- created-date -->
+<input type="hidden" name="created-date" value="<?php echo CreatedDate(); ?>">
+<!-- ./created-date -->
+
+<!-- created-time -->
+<input type="hidden" name="created-time" value="<?php echo CreatedTime(); ?>">
+<!-- ./created-time -->
+
+<!-- created-day -->
+<input type="hidden" name="created-day" value="<?php echo CreatedDay(); ?>">
+<!-- ./created-day -->
+
+<!-- created-by -->
+<input type="hidden" name="created-by" value="<?php echo CreatedBy(); ?>">
+<!-- ./created-by -->
