@@ -1,0 +1,19 @@
+<!-- updated-c-date -->
+<input type="hidden" name="updated-c-date" value="<?php echo UpdatedCDate(); ?>">
+<!-- ./updated-c-date -->
+
+<!-- updated-date -->
+<input type="hidden" name="updated-date" value="<?php echo UpdatedDate(); ?>">
+<!-- ./updated-date -->
+
+<!-- updated-time -->
+<input type="hidden" name="updated-time" value="<?php echo UpdatedTime(); ?>">
+<!-- ./updated-time -->
+
+<!-- updated-day -->
+<input type="hidden" name="updated-day" value="<?php echo UpdatedDay(); ?>">
+<!-- ./updated-day -->
+
+<!-- updated-by -->
+<input type="hidden" name="updated-by" value="<?php echo UpdatedBy(); ?>">
+<!-- ./updated-by -->
