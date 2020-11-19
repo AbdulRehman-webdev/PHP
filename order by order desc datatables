@@ -1,0 +1,9 @@
+<!-- datatables -->
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#administrator-logs').dataTable( {
+        "aaSorting": [[ 0, "desc" ]]
+    } );
+} );
+</script>
+<!-- ./datatables -->
