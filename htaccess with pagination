@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^(contact)$ $1.php [NC,L]
+RewriteRule ^([-\w]+)$ product-category.php?product_category_slug=$1 [NC,L]
+RewriteRule ^product-category/([-\w]+)/page/(\d+)$ product-category.php?product_category_slug=$1&page=$2 [NC,L]
+RewriteRule ^product-category/([-\w]+)$ product-category.php?product_category_slug=$1 [NC,L]
